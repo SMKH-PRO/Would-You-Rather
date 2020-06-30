@@ -1,0 +1,53 @@
+
+.tabChild{
+    background-color: white;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+ 
+     border: 1px solid #f0f0f0;
+     border-bottom-width: 0px !important;
+
+}
+
+.ant-tabs-nav {
+     margin: -1px !important; 
+}
+.ant-card-meta-title{
+     margin:0px !important;
+}
+
+
+@media only screen and (max-width: 900px) {
+     .tabChild{
+
+     text-align: center !important;
+
+     }
+}
+
+
+@media only screen and (max-width: 600px){
+     .tabChild{
+
+     padding: 5px !important;
+
+     }
+
+     main.ant-layout-content.site-layout-background {
+     
+    margin: 0px !important;
+     padding: 5px !important;
+}
+
+}
+
+@media only screen and (max-width:500px){
+     .tabChild{
+
+     padding: 0px !important;
+
+     }
+}

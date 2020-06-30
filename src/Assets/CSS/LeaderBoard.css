@@ -1,0 +1,12 @@
+.NoBorder{
+    box-shadow: none !important;
+    border-top: .1px solid #c0c0c078;
+    border-right: .1px solid #c0c0c078;
+
+}
+
+
+.FirstGrid{
+    padding-bottom: 5px !important;
+
+}

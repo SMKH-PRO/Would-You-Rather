@@ -1,0 +1,58 @@
+body{
+  margin:0px;
+  padding: 0px;
+  background-color: #f8f8f8;
+}
+.LoginBtnAvtar{
+  filter: drop-shadow(white 0px 0px 10px);
+  width: 50px;
+  margin-top: -25px;
+}
+.userHeader{
+  display: inline-block;
+    text-align: center;
+    float: right;
+    padding-right: 20px;
+}
+.userAvatar{
+  margin-top: -10px;
+}
+.SideBarLogo{
+  transition: all 100ms ease 0s;
+
+}
+.menuDivider{
+  margin: 30px auto; 
+  border-color: gray; 
+  border-width: .1px;
+  margin:10px auto;
+}
+.menuH1Collapsed{
+  font-size: 13px; 
+  font-family: monospace !important; 
+  line-height: 1;
+}
+.menuH1{
+  transition: all 100ms ease 0s;
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+ .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
