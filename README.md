@@ -13,4 +13,4 @@
  
 
 
-UI INTERFACE:
+<img src="https://raw.githubusercontent.com/SMKH-PRO/Would-You-Rather/master/Screenshots/1.png" />
