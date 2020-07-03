@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Would-You-Rather/static/css/main.42c980d3.chunk.css",
-    "main.js": "/Would-You-Rather/static/js/main.b1aa45d4.chunk.js",
-    "main.js.map": "/Would-You-Rather/static/js/main.b1aa45d4.chunk.js.map",
+    "main.css": "/Would-You-Rather/static/css/main.8839b119.chunk.css",
+    "main.js": "/Would-You-Rather/static/js/main.cb16d279.chunk.js",
+    "main.js.map": "/Would-You-Rather/static/js/main.cb16d279.chunk.js.map",
     "runtime-main.js": "/Would-You-Rather/static/js/runtime-main.9c1621fd.js",
     "runtime-main.js.map": "/Would-You-Rather/static/js/runtime-main.9c1621fd.js.map",
     "static/css/2.3cb76441.chunk.css": "/Would-You-Rather/static/css/2.3cb76441.chunk.css",
-    "static/js/2.6e0e3304.chunk.js": "/Would-You-Rather/static/js/2.6e0e3304.chunk.js",
-    "static/js/2.6e0e3304.chunk.js.map": "/Would-You-Rather/static/js/2.6e0e3304.chunk.js.map",
+    "static/js/2.d56a77cf.chunk.js": "/Would-You-Rather/static/js/2.d56a77cf.chunk.js",
+    "static/js/2.d56a77cf.chunk.js.map": "/Would-You-Rather/static/js/2.d56a77cf.chunk.js.map",
     "index.html": "/Would-You-Rather/index.html",
-    "precache-manifest.aba33f1cbec737f5dc4c3d3082a14358.js": "/Would-You-Rather/precache-manifest.aba33f1cbec737f5dc4c3d3082a14358.js",
+    "precache-manifest.98dc51de8bf55ede0d830276565ee2f0.js": "/Would-You-Rather/precache-manifest.98dc51de8bf55ede0d830276565ee2f0.js",
     "service-worker.js": "/Would-You-Rather/service-worker.js",
     "static/css/2.3cb76441.chunk.css.map": "/Would-You-Rather/static/css/2.3cb76441.chunk.css.map",
-    "static/css/main.42c980d3.chunk.css.map": "/Would-You-Rather/static/css/main.42c980d3.chunk.css.map",
-    "static/js/2.6e0e3304.chunk.js.LICENSE.txt": "/Would-You-Rather/static/js/2.6e0e3304.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Would-You-Rather/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8839b119.chunk.css.map": "/Would-You-Rather/static/css/main.8839b119.chunk.css.map",
+    "static/js/2.d56a77cf.chunk.js.LICENSE.txt": "/Would-You-Rather/static/js/2.d56a77cf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Would-You-Rather/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c1621fd.js",
     "static/css/2.3cb76441.chunk.css",
-    "static/js/2.6e0e3304.chunk.js",
-    "static/css/main.42c980d3.chunk.css",
-    "static/js/main.b1aa45d4.chunk.js"
+    "static/js/2.d56a77cf.chunk.js",
+    "static/css/main.8839b119.chunk.css",
+    "static/js/main.cb16d279.chunk.js"
   ]
 }
