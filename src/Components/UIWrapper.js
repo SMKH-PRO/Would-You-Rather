@@ -17,7 +17,6 @@ const { Header, Sider, Content } = Layout;
 const SideBarWrapper = (props) => {
     const dispatch = useDispatch()
     const user = useSelector((state) => state.user);
-    const isLogedIn = useSelector((state) => state.isLoggedIn);
     const title = useSelector((state) => state.title);
 
     const [collapsed, setCollapsed] = useState(true)
@@ -30,9 +29,11 @@ const SideBarWrapper = (props) => {
         setCollapsed(!collapsed)
     };
 
-    const isLoggedIn = isLogedIn && user && user.avatarURL
+    const isLoggedIn = user && user.avatarURL
     const avatarURL = isLoggedIn ? user.avatarURL : ''
     const { children, ...rest } = props
+
+    //console.log("USERRRRRRRR=> ",user)
     return (
         <Layout style={{ minHeight: '100vh', maxWidth: '100vw',overflow: 'hidden', }}>
             <Sider trigger={null} collapsible collapsed={collapsed} width={230}>

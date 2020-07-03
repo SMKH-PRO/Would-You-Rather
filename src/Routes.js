@@ -5,7 +5,7 @@ import Login from './Pages/Login'
 import Question from './Pages/Question'
 import SubmitPoll from './Pages/SubmitPoll'
 import LeaderBoard from './Pages/LeaderBoard'
-
+import NotFound from './Pages/404'
 import { _getQuestions, _getUsers } from './Enums/_DATA'
 import { setState} from './Redux/actions'
 
@@ -94,6 +94,9 @@ const Routes = () => {
                                                                  child={route.Component}  />
                         }/>
                     ))}
+
+                 <Route component={NotFound} />
+
                 </Switch>
             </Wrapper>
         </Router>

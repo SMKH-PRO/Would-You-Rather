@@ -1,11 +1,11 @@
 import {TYPES} from './actions'
-import {  persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
+// import {  persistReducer } from 'redux-persist'
+// import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
 
-const persistConfig = {
-    key: 'root',
-    storage,
-  }
+// const persistConfig = {
+//     key: 'root',
+//     storage,
+//   }
 export const initialState = {
     user:null,//Object expected.
     questions:null,
@@ -29,6 +29,6 @@ const  reducer=(state=initialState, action)=> {
     }
   }
 
-  export default persistReducer(persistConfig, reducer) ;
+  // export default persistReducer(persistConfig, reducer) ;
 
-  
+  export default reducer

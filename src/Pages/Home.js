@@ -13,7 +13,6 @@ import Loading from '../Components/Loading'
 const { TabPane } = Tabs;
 
 const Home = props => {
-    const number = useSelector((state) => state.number);//REDUX STATE
     // Get dispatch
     const dispatch = useDispatch();
     const InitialLoading = useSelector((state) => state.InitialLoading);//REDUX STATE
@@ -40,9 +39,14 @@ const Home = props => {
 
 
     const unanswered = Array.isArray(questions)&& questions.filter(d => !d.optionOne.votes.includes(user.id) && !d.optionTwo.votes.includes(user.id))
+    
     const answered = Array.isArray(questions)&& questions.filter(d => d.optionOne.votes.includes(user.id) || d.optionTwo.votes.includes(user.id))
     console.log("una=>", unanswered, "ans=>", answered)
-    return (
+    unanswered.sort((a,b)=>b.timestamp-a.timestamp)
+    answered.sort((a,b)=>b.timestamp-a.timestamp)
+
+    
+      return (
         <div>
             <style>
                 {
