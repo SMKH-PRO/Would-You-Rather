@@ -19,14 +19,17 @@ import {
 } from "react-router-dom";
 import Wrapper from './Components/UIWrapper'
 
-
-
+const RedirectHome=()=> <Redirect to="/" />
 const RoutesList = [
-
     {
         title: 'Home',
         path: '/',
         Component: Home
+    },
+    {
+        title: 'Home',
+        path: '/questions/', //Question ID
+        Component: RedirectHome,
     },
     {
         title: 'Login',
@@ -37,7 +40,7 @@ const RoutesList = [
     ,
     {
         title: 'Question',
-        path: '/q/:QID', //Question ID
+        path: '/questions/:QID', //Question ID
         Component: Question,
     },
     {
@@ -57,7 +60,13 @@ const RoutesList = [
 const Routes = () => {
     const user = useSelector((state) => state.user);//REDUX STATE
     const isLoggedIn=user&&user.id
-    const LogicalComponent = (props) => isLoggedIn ? <props.child {...props} /> : <Redirect to={"/Login?r="+props.path} />
+    const LogicalComponent = (props) => isLoggedIn ? <props.child {...props} /> :
+                                                     <Redirect to={{
+                                                                  pathname:"/Login",
+                                                                  state:props.location
+                                                                    
+                                                                   }} 
+                                                    />
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -90,7 +99,6 @@ const Routes = () => {
                             route.isNotLogical?<route.Component  {...props} />
                                                 :
                                                <LogicalComponent  {...props} 
-                                                                 path={route.path} 
                                                                  child={route.Component}  />
                         }/>
                     ))}

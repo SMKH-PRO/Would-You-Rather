@@ -15,12 +15,12 @@ const Login = (props) => {
 
     useEffect(() => {
         dispatch(setTitle("Login"))
-
     }, [])
 
     useEffect(() => {
+
         if(isLoggedIn){
-            let RedirectTo=new URLSearchParams(props.location.search).get("r")
+            let RedirectTo= props?.location?.state?.pathname
             props.history.push(RedirectTo?RedirectTo:"/")
         }
     }, [isLoggedIn])

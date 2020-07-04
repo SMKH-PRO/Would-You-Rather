@@ -47,7 +47,7 @@ const SubmitPoll = (props) => {
           _saveQuestion({optionOneText:textOne,optionTwoText:textTwo,author:user.id}).then(q=>{
                dispatch(setState({questions:q.questions,users:q.users}))
                getInitialData(()=>{
-                   props.history.push(`/q/${q.id}`)
+                   props.history.push(`/questions/${q.id}`)
                })
 
           })

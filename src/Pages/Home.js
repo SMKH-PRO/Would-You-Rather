@@ -126,7 +126,7 @@ const optionTwoText= poll&& poll.optionTwo&& poll.optionTwo.text
 const responsiveWidth={minWidth:200,maxWidth:330,width:'100%'}
 return <Card {...props} 
               child={
-              <Link to={`/q/${poll&&poll.id}`}> 
+              <Link to={`/questions/${poll&&poll.id}`}> 
                    <Button  style={{borderRadius:5,...responsiveWidth ,bottom:0}} type="primary">
                        View Poll <ArrowRightOutlined />
                    </Button></Link>
