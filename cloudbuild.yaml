@@ -7,5 +7,5 @@ steps:
   args: ['run', 'build']
 # Deploy
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["app", "deploy"]
+  args: ["app", "deploy","--stop-previous-version"]
 timeout: "1600s"
