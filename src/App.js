@@ -5,9 +5,13 @@ import '../node_modules/antd/dist/antd.css';
 import { Provider } from 'react-redux'
 import {store} from './Redux/store'
 // import { PersistGate } from 'redux-persist/integration/react'
-alert("CHANGE")
 import Routes from './Routes'
+
+
 const App=()=> {
+
+  alert("CHANGE")
+
   return (
   <Provider store={store}>
     {/* <PersistGate loading={null} persistor={persistor}> Removed on Request in last review. */}
