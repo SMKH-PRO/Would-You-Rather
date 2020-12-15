@@ -10,7 +10,7 @@ import Routes from './Routes'
 
 const App=()=> {
 
-  alert("CHANGE  new 5")
+  alert("CHANGE  new 7")
 
   return (
   <Provider store={store}>
