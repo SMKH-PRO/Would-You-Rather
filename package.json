@@ -1,7 +1,6 @@
 {
   "name": "wouldyourather",
   "version": "0.1.0",
-  "homepage": "https://smkh-pro.github.io/Would-You-Rather/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
